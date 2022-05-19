@@ -27,6 +27,6 @@ namespace GitHubProj.Controllers
         {
             return await _departmentService.InsertDepartment(department);
         }
-       
+       // Comment
     }
 }
