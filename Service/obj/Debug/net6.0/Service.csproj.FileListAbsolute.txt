@@ -1,0 +1,15 @@
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.dll
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\refint\Service.dll
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.pdb
+D:\WebApi\GitHubProject\Service\bin\Debug\net6.0\Service.deps.json
+D:\WebApi\GitHubProject\Service\bin\Debug\net6.0\Service.dll
+D:\WebApi\GitHubProject\Service\bin\Debug\net6.0\Service.pdb
+D:\WebApi\GitHubProject\Service\bin\Debug\net6.0\Domain.dll
+D:\WebApi\GitHubProject\Service\bin\Debug\net6.0\Domain.pdb
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+D:\WebApi\GitHubProject\Service\obj\Debug\net6.0\ref\Service.dll

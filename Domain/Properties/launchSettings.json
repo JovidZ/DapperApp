@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Domain": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\WebApi\\GitHubProject\\GitHubProj",
+      "remoteDebugEnabled": true
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "D:\\WebApi\\GitHubProject\\GitHubProj\\GitHubProj.csproj.user",
+      "workingDirectory": "D:\\WebApi\\GitHubProject",
+      "remoteDebugEnabled": true
+    }
+  }
+}
