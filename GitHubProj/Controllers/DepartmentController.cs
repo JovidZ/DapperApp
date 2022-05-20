@@ -16,17 +16,30 @@ namespace GitHubProj.Controllers
             _departmentService = departmentService;
         }
         // Метод получения из базы данных информации
-        [HttpGet("GetDepartment")]// Указание метода (в данном случаи метод Гет)
-        public async Task<List<GetDepartment>> GetDepartments()// создание листа, тип которого береться из папки Домен из класса InsertDepartment класс GetDepartment 
+        [HttpGet("GetDepartments")]
+        public async Task<List<DepartmentId>> GetDepartments()
         {
-            return await _departmentService.GetDepartments();// возвращаеть нам в виде листа данные
+            return await _departmentService.GetDepartments();
         }
-        //Метод Insert данных в базу 
+        // Метод получения из базы данных по уникальному идентификатору 
+        [HttpGet("GetDepartmentById")]
+        public async Task<DepartmentId> GetDepartmentById(int Id)
+        {
+            return await _departmentService.GetDepartmentById(Id);
+
+        }
+        // Метод инсерта в базу данных информации
         [HttpPost("InsertDepartment")]
-        public async Task<int> InsertDepartment(InsertDepartment department)// создание метода тип ИНТ, тип которого береться из папки Домен из класса InsertDepartment класс InsertDepartment 
+
+        public async Task<int> InsertDepartment(Department department)
         {
             return await _departmentService.InsertDepartment(department);
         }
-       // Comment
+        // Метод Обновления данных в базы данных
+        [HttpPut("UpdateDepartment")]
+        public async Task<int> UpdateDepartment(Department department, int Id)
+        {
+            return await _departmentService.UpdateDepartment(department, Id);
+        }
     }
 }
